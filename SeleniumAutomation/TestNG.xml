@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo suite" thread-count="2" parallel="Test">
+	<test name="Demo Test 1" annotations="JDK" preserve-order="true">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.parabank.RegisterToParabank" />
+		</classes>
+	</test>
+</suite>

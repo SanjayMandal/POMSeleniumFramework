@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Custom suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="com.stepdefinition.TestRunner1">
+        <methods>
+          <include name="runCukes"/>
+          <include name="initialiseReport"/>
+        </methods>
+      </class> <!-- com.stepdefinition.TestRunner1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Custom suite] -->
